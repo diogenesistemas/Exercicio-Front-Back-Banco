@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercício 01</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Exercíco 01</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+
+
+        <form id="" class="row md-12 " method="">
+            <div class="col-md-12">
+                <header class="bg-dark text-light p-2 text-center">Informações da Receita</header>
+                <div class="p-2">
+
+                    <div class="form-group row">
+                        <div class="col-6">
+                            <label for="crmMedico">CRM</label>
+                            <input class="form-control" type="text" id="crmMedico" name="crmMedico"
+                                placeholder="Digite o CRM">
+                        </div>
+                        <div class="col-6">
+                            <label for="nomeMedico">Nome do Médico</label>
+                            <input class="form-control" type="text" id="nomeMedico" name="nomeMedico"
+                                placeholder="Nome do Médico">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-6">
+                            <label for="dataDaReceita">Data da Receita</label>
+                            <input class="form-control" type="date" id="dataDaReceita" name="dataDaReceita"
+                                placeholder="Digite a data da receita">
+
+                        </div>
+                        <div class="col-6">
+                            <label for="quantidadeCaixas">Quantidade de Caixas</label>
+                            <input class="form-control" type="text" id="quantidadeCaixas" name="quantidadeCaixas"
+                                placeholder="Digite quantidade de caixas">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nomeUsuario">Nome do Paciente</label>
+                        <input class="form-control" type="text" id="nomeUsuario" name="nomeUsuario"
+                            placeholder="Digite seu nome completo" maxlength="11">
+                    </div>
+
+                    <div class="form-group row">
+
+                        <div class="col-4">
+                            <label for="cpfPaciente">CPF</label>
+                            <input class="form-control" type="text" id="cpfPaciente" name="cpfPaciente"
+                                placeholder="Digite seu CPF" maxlength="11">
+                        </div>
+
+
+                        <div class="col-4">
+                            <label for="dataPaciente">Data de Nascimento</label>
+                            <input class="form-control" type="date" id="dataPaciente" name="dataPaciente"
+                                placeholder="Digite sua data de Nascimento">
+                        </div>
+
+
+                        <fieldset class="form-group">
+                            <legend class="col-form-label col-4 pt-0">Sexo</legend>
+                            <div class="col-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sexoPaciente" id="sexoMasculino"
+                                        value="M" checked>
+                                    <label class="form-check-label" for="sexoMasculino">
+                                        Masculino
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sexoPaciente" id="sexoFeminino"
+                                        value="F">
+                                    <label class="form-check-label" for="sexoFeminino">
+                                        Feminino
+                                    </label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-6">
+                            <label class="my-1 mr-2" for="tiposDeEnvio">Tipos de Envio</label>
+                            <select class="form-control custom-select my-1 mr-sm-2" type="" id="tiposDeEnvio"
+                                name="estadoUsuario">
+                                <option value="" disabled selected>Tipos de Envio</option>
+                                <option value="1">Anexar Arquivo</option>
+                                <option value="2">WhatsApp</option>
+                                <option value="3">E-mail</option>
+                            </select>
+                        </div>
+                        <div class="col-6 d-flex">
+                            <button type="submit" class="btn btn-primary btn-lg btn-block align-self-end">Submit</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer class="bg-dark text-center">
+        <p>Rodapé Diógenes</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
